@@ -1,0 +1,35 @@
+ID reçu pour suppression : 38
+Utilisateur trouvé avant suppression : {"id":38,"0":38,"name":"User_25","1":"User_25","email":"user_25@example.com","2":"user_25@example.com","date_added":"2025-02-27 20:19:28","3":"2025-02-27 20:19:28"}
+Utilisateur avec ID 38 supprimé avec succès.
+ID reçu pour suppression : 37
+[SUPPRESSION] ID reçu : 37
+[INFO] Utilisateur trouvé avant suppression : {"id":37,"name":"User_23","email":"user_23@example.com","date_added":"2025-02-27 20:19:28"}
+[SUCCÈS] Utilisateur avec ID 37 supprimé avec succès.
+ID reçu pour suppression : 36
+[SUPPRESSION] ID reçu : 36
+[INFO] Utilisateur trouvé avant suppression : {"id":36,"name":"User_59","email":"user_59@example.com","date_added":"2025-02-27 20:19:28"}
+[SUCCÈS] Utilisateur avec ID 36 supprimé avec succès.
+ID reçu pour suppression : 35
+[SUPPRESSION] ID reçu : 35
+[INFO] Utilisateur trouvé avant suppression : {"id":35,"name":"User_22","email":"user_22@example.com","date_added":"2025-02-27 20:19:28"}
+[SUCCÈS] Utilisateur avec ID 35 supprimé avec succès.
+ID reçu pour suppression : 34
+[SUPPRESSION] ID reçu : 34
+[INFO] Utilisateur trouvé avant suppression : {"id":34,"name":"User_21","email":"user_21@example.com","date_added":"2025-02-27 20:19:28"}
+[SUCCÈS] Utilisateur avec ID 34 supprimé avec succès.
+ID reçu pour suppression : 33
+[SUPPRESSION] ID reçu : 33
+[INFO] Utilisateur trouvé avant suppression : {"id":33,"name":"User_19","email":"user_19@example.com","date_added":"2025-02-27 20:19:28"}
+[SUCCÈS] Utilisateur avec ID 33 supprimé avec succès.
+ID reçu pour suppression : 318
+
+ID reçu pour suppression : 319
+ID reçu pour suppression : 320
+ID reçu pour suppression : 320
+ID reçu pour suppression : 320
+ID reçu pour suppression : 320
+ID reçu pour suppression : 314
+ID reçu pour suppression : 342
+ID reçu pour suppression : 344
+ID reçu pour suppression : 345
+ID reçu pour suppression : 1
