@@ -5,10 +5,8 @@ header("Content-Type: application/json");
 $method = $_SERVER['REQUEST_METHOD'];
 $userManager = new UserManager();
 
-// Récupération des données JSON si envoyées sous ce format
 $data = json_decode(file_get_contents("php://input"), true);
 
-// Vérification des données POST
 if ($method === 'POST') {
     if (isset($_POST['name'], $_POST['email'])) {
         $name = $_POST['name'];

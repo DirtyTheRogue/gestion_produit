@@ -33,3 +33,6 @@ ID reçu pour suppression : 342
 ID reçu pour suppression : 344
 ID reçu pour suppression : 345
 ID reçu pour suppression : 1
+ID reçu pour suppression : 248
+ID reçu pour suppression : 249
+ID reçu pour suppression : 250

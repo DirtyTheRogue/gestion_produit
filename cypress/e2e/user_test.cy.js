@@ -1,6 +1,6 @@
 describe("Gestion des utilisateurs", () => {
     beforeEach(() => {
-        cy.visit("http://localhost:8000"); // S'assurer que l'URL est correcte
+        cy.visit("http://localhost:8000"); 
     });
 
     it("Ajout d'un utilisateur", () => {
@@ -8,23 +8,18 @@ describe("Gestion des utilisateurs", () => {
         cy.get("#email").type("alice@example.com");
         cy.get("button[type='submit']").click();
 
-        // Vérifier que l'utilisateur apparaît dans la liste
         cy.get("#userList").should("contain.text", "Alice (alice@example.com)");
     });
 
     it("Modification d'un utilisateur", () => {
-        // Vérifier qu'Alice existe bien avant de la modifier
         cy.contains("Alice (alice@example.com)").should("exist");
 
-        // Cliquer sur le bouton de modification
         cy.contains("Alice (alice@example.com)").parent().find("button").first().click();
 
-        // Modifier les informations
         cy.get("#name").clear().type("Alice Updated");
         cy.get("#email").clear().type("alice.updated@example.com");
         cy.get("button[type='submit']").click();
 
-        // Vérifier que la modification est bien prise en compte
         cy.contains("Alice Updated (alice.updated@example.com)").should("exist");
     });
 
